@@ -1,0 +1,112 @@
+.col-md-12{
+		padding: 40px 150px 40px 140px;
+		background-color: #F0F0F0;
+	}
+	.col-md-3{
+		margin: 150px 0px 0px 100px;
+	}
+	.col-md-7{
+		margin-top: 60px;
+		padding-left: 0px;
+	}
+	.class3{
+		background-color: #F0F0F0;
+		margin-left: 0px;
+	}
+	.class4{
+		float: right;
+		font-size: 18px;
+		color: black;
+		opacity: 0.7;
+		margin-left: 30px;
+	}
+	.card{
+		margin-top: 10px;
+		float:left;
+	}
+	.card-title{
+		background-color: #F0F0F0;
+		padding: 8px 0px;
+	}
+
+	a:link{
+		color: grey;
+		text-decoration: none;
+	}
+	a{
+		margin-left: 10px;
+	}
+	.card{
+		padding-bottom: 10px;
+		width: 17rem;
+		line-height: 24px;
+	}
+	.class1{
+		line-height: 50px;
+	}
+	.class2{
+		font-size: 18px;
+		color: black;
+		opacity: 0.6;
+	}
+	.class5{
+		color: darkblue;
+	}
+	#id1{
+		color: black;
+		opacity: 0.8;
+		font-size: 18px;
+	}
+	div a{
+		color: black;
+		opacity: 0.8;
+	}
+	b{
+		opacity: 0.7;
+	}
+	th,td{
+		padding:0px 35px 10px;
+		color: grey;
+	}
+	td.class8{
+		padding: 0px 0px 0px;
+	}
+	th{
+		font-size: 11px;
+	}
+	table.table1,th.table1{
+		border-bottom: 2px solid skyblue;
+	}
+	table.table1 tr:hover td
+    {
+    	background-color: #F0F0F0;
+    }
+
+	footer{
+		background-color: grey;
+	}
+	.para1{
+		padding-left: 45px;
+		color: black;
+		opacity: 0.8;
+	}
+	a.class8:hover{
+		color: black;
+		opacity: 0.7;
+	}
+	table.class7 tr:hover td{
+		background-color: #F0F0F0;
+	}
+	table.class8 tr:hover td.class8{
+		background-color:#F0F0F0;
+	}
+	table.class8 tr:hover td.hov{
+		background-color: white;
+	}
+	a.hov1{
+		color: blue;
+
+	}
+
+
+		    	

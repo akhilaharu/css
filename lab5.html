@@ -1,0 +1,122 @@
+<!DOCTYPE hmtl>
+<html>
+<head>	 
+  <title>CSS Lab5</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<style type="text/css">
+	.col-md-8{
+		background-color: black;
+		padding-left: 80px;
+	}
+	.col-md-4{
+		background-color: mediumseagreen;
+		padding-top: 25%;
+		padding-left: 50px;
+	}
+	img{
+		width: 250px;
+		height: 100px;
+		margin-top: 70px;
+	}
+	h1{
+		color: white;
+		font-size: 50px;
+		font-weight: 300;
+	}
+	h3{
+		font-size: 28px;
+		font-weight: 300;
+		color: rgba(255,255,255,.8);
+		padding-bottom: 8px;
+	}
+	#id1{
+		margin-top: 100px;
+	}
+	p{
+		font-weight: 400;
+		color: rgba(255,255,255,.8);
+	}
+	a{
+		color: white;
+	}
+	button{
+		background-color: mediumseagreen;
+		border: 0;
+	}
+	#register{
+		padding: 2px 6px;
+	}
+	.class1{
+		color: rgba(255,255,255,.8);
+		font-size: 12px;
+		font-weight: 600;
+		padding-right: 20px;
+	}
+	a:hover{
+		text-decoration: none;
+		color: rgba(255,255,255,.8);
+	}
+	footer{
+		padding-top: 90px;
+		padding-bottom: 50px;
+	}
+	input{
+		width: 358px;
+		border: 0;
+		border-bottom: 1px solid silver;
+		background-color: mediumseagreen;
+	}
+	::placeholder{
+		color:white;
+	}
+	a.login:hover{
+		color: mediumseagreen;
+	}
+	.login{
+		background-color: white;
+		color: mediumseagreen;
+		border: 0;
+		padding: 2px 6px;
+		margin-top: 30px;
+	}
+	#id3{
+		padding-left: 30px;
+	}
+</style>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-8">
+				<img src="https://cosy.erc.edu/assets/my-erc/img/logo-white.png">
+				<div id="id1">
+					<h1>Welcome</h1>
+					<h3>Register for an ERC account here.</h3>
+				</div>
+				<div id="id2">
+					<p>Register for a free ERC account here and get access to the webshop, learning environment and membership portal.tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui.</p>
+				</div>
+				<button> <a id="register" href="https://cosy.erc.edu/en/register">REGISTER HERE</a></button>
+				<footer>
+					<a class="class1" href="">CHOOSE LANGUAGE</a>
+					<a class="class1" href="https://support.erc.edu/support/home">HELP CENTER</a>
+					<a class="class1" href="https://www.erc.edu/">ERC WEBSITE</a>
+					<a class="class1" href="https://cosy.erc.edu/en/webshop/select-user">ERC WEBSHOP</a>
+				</footer>
+			</div>
+			<div class="col-md-4">
+				<h3>Or login to your account</h3>
+				<input type="text" name="email" placeholder="Your email"><br><br>
+				<input type="password" name="password" placeholder="Password"><br>
+				<button class="login"><a class="login" href="">LOGIN</a></button>
+				<a id="id3" href="https://cosy.erc.edu/en/reset-password">Forgot Password?</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
